@@ -3,8 +3,8 @@ const UniswapV2Router01 = artifacts.require("UniswapV2Router01");
 const ERC20 = artifacts.require("ERC20")
 const WETH = artifacts.require("WETH9")
 
-const FACTORY_ADDRESS = "0x8fa8585fCA614EE4F7a46E1bDdE4F2d45B065505"
-const WRAPPED_ETH = "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
+const FACTORY_ADDRESS = "0x1DeCeaf137a17aEa7b472fa427E3b0408593FD92"
+const WRAPPED_ETH = "0x0BE9e53fd7EDaC9F859882AfdDa116645287C629"
 
 const toBn = (value) => new web3.utils.toBN(value)
 const toBnWithDecimals = (x, y = 18) => toBn((toBn(x).mul(toBn(10).pow(toBn(y)))).toString())
