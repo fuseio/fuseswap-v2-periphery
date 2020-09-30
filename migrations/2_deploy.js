@@ -3,7 +3,7 @@ const UniswapV2Router01 = artifacts.require("UniswapV2Router01");
 const ERC20 = artifacts.require("ERC20")
 const WETH = artifacts.require("WETH9")
 
-const FACTORY_ADDRESS = "0x1DeCeaf137a17aEa7b472fa427E3b0408593FD92"
+const FACTORY_ADDRESS = "0x1d1f1A7280D67246665Bb196F38553b469294f3a"
 const WRAPPED_ETH = "0x0BE9e53fd7EDaC9F859882AfdDa116645287C629"
 
 const toBn = (value) => new web3.utils.toBN(value)
