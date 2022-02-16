@@ -1,6 +1,6 @@
 {
   "name": "@voltage-finance/periphery",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "🎚 Peripheral smart contracts for interacting with Voltage core",
   "engines": {
     "node": ">=10"

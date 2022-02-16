@@ -10,7 +10,7 @@ import './interfaces/IERC20.sol';
 import './interfaces/IWETH.sol';
 
 contract VoltageRouter02 is IVoltageRouter02 {
-    using SafeMath for uint;
+    using VoltSafeMath for uint;
 
     address public immutable override factory;
     address public immutable override WETH;
