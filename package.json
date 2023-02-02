@@ -1,14 +1,14 @@
 {
-  "name": "@uniswap/v2-periphery",
-  "version": "1.1.0-beta.0",
-  "description": "🎚 Peripheral smart contracts for interacting with Uniswap V2",
+  "name": "@voltage-finance/periphery",
+  "version": "1.0.2",
+  "description": "🎚 Peripheral smart contracts for interacting with Voltage core",
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://uniswap.org",
+  "homepage": "https://voltage.finance",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v2-periphery"
+    "url": "https://github.com/voltfinance/voltage-dex-periphery"
   },
   "files": [
     "build",
@@ -16,12 +16,13 @@
   ],
   "dependencies": {
     "@uniswap/lib": "1.1.1",
-    "@uniswap/v2-core": "1.0.0"
+    "@uniswap/v2-core": "1.0.0",
+    "@voltage-finance/core": "^1.0.0"
   },
   "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.0.43",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
-    "@truffle/hdwallet-provider": "^1.0.43",
     "chai": "^4.2.0",
     "ethereum-waffle": "^2.4.1",
     "ethereumjs-util": "^6.2.0",
@@ -30,9 +31,9 @@
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
     "solc": "0.6.6",
+    "truffle": "^5.1.42",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.3",
-    "truffle": "^5.1.42"
+    "typescript": "^3.7.3"
   },
   "scripts": {
     "lint": "yarn prettier ./test/*.ts --check",
